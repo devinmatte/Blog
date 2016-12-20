@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^devinmatte.com
+RewriteRule ^(.*) http://devinmatte.com/$1 [P]
