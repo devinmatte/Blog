@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Notetaking In Markdown</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+
+<!-- Wrapper -->
+<div id="wrapper" class="divided">
+
+    <!-- One -->
+    <section
+            class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+        <div class="content">
+            <h1 id="notetaking-in-markdown">Notetaking In Markdown</h1>
+            <p>This explains my notetaking method using Markdown, LaTeX and Pandoc and how I set it up. All Instructions
+                listed here
+                are written for <em>my</em> personal method. Once you understand how I set it up, there are plenty of
+                ways you can
+                adapt this knowledge to a setup that works for you.</p>
+        </div>
+        <div class="image">
+            <img src="images/markdown.jpg" alt=""/>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+             id="first">
+        <div class="content">
+            <h1 id="installation">Installation</h1>
+            <p>In order to set up the installation you need a few things. First we need to determine which operating
+                system you'll
+                be using, and then follow the installation instructions after that.</p>
+            <ul class="actions horizontal">
+                <li><a href="#windows" class="button">Windows</a></li>
+                <li><a href="#linux" class="button">Linux</a></li>
+                <li><a href="#macos" class="button">MacOS</a></li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="https://og.github.com/atom-mark/atom-mark@1200x630.png" alt=""/>
+        </div>
+    </section>
+
+    <!-- Three -->
+    <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h2 id="windows">Windows</h2>
+            <h3 id="install-atom">1. Install Atom</h3>
+            <p>First we're going to need to grab Atom from <a href="https://atom.io/">atom.io</a></p>
+            <h3 id="install-pandoc">2. Install Pandoc</h3>
+            <ol style="list-style-type: decimal">
+                <li>There is a package installer at pandoc’s <a
+                        href="https://github.com/jgm/pandoc/releases/tag/1.19.1">download
+                    page.</a></li>
+                <li>For PDF output, you’ll also need to install LaTeX.
+                    <ul>
+                        <li>If you're using <em>windows cmd prompt</em> then install <a href="https://miktex.org/">MiKTeX</a>
+                        </li>
+                        <li>If you plan to use <em>bash on ubuntu on windows</em> then run <code>sudo apt-get install
+                            texlive</code>
+                            in your bash client
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <h3 id="atom-plugins">3. Atom Plugins</h3>
+            <p>Launch Atom and configure it to your liking then:</p>
+            <ol style="list-style-type: decimal">
+                <li>Install <code>markdown-preview-plus</code>
+                    <ul>
+                        <li>Search for Markdown Preview Plus in Atom's Settings view <strong>File</strong> ›
+                            <strong>Settings</strong> › <strong>Install</strong> and click <strong>Install</strong>.
+                            Please allow
+                            3-5 mins for installation. Alternatively if you would prefer to use the command line utility
+                            apm: <code>apm
+                                install markdown-preview-plus</code></li>
+                    </ul>
+                </li>
+                <li>Disable Markdown Preview
+                    <ul>
+                        <li>Disable the built in Markdown Preview package. You can do this by searching for Markdown
+                            Preview in
+                            Atom's Settings view <strong>File</strong> › <strong>Settings</strong> ›
+                            <strong>Packages</strong> and
+                            clicking <strong>Disable</strong>.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="image">
+            <img src="images/pic02.jpg" alt=""/>
+        </div>
+    </section>
+
+    <!-- Four -->
+    <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h2 id="linux">Linux</h2>
+            <h3 id="install-atom-1">1. Install Atom</h3>
+            <p>First we're going to need to grab Atom from <a href="https://atom.io/">atom.io</a></p>
+            <h3 id="install-pandoc-1">2. Install Pandoc</h3>
+            <ol style="list-style-type: decimal">
+                <li>First you need to install pandoc via Terminal <code>sudo apt-get install pandoc</code></li>
+                <li>For PDF output, you’ll also need to install LaTeX <code>sudo apt-get install texlive</code></li>
+            </ol>
+            <h3 id="atom-plugins-1">3. Atom Plugins</h3>
+            <p>Launch Atom and configure it to your liking then:</p>
+            <ol style="list-style-type: decimal">
+                <li>Install <code>markdown-preview-plus</code>
+                    <ul>
+                        <li>Search for Markdown Preview Plus in Atom's Settings view <strong>File</strong> ›
+                            <strong>Settings</strong> › <strong>Install</strong> and click <strong>Install</strong>.
+                            Please allow
+                            3-5 mins for installation. Alternatively if you would prefer to use the command line utility
+                            apm: <code>apm
+                                install markdown-preview-plus</code></li>
+                    </ul>
+                </li>
+                <li>Disable Markdown Preview
+                    <ul>
+                        <li>Disable the built in Markdown Preview package. You can do this by searching for Markdown
+                            Preview in
+                            Atom's Settings view <strong>File</strong> › <strong>Settings</strong> ›
+                            <strong>Packages</strong> and
+                            clicking <strong>Disable</strong>.
+                        </li>
+                    </ul>
+                </li>
+                <li><em>(Optional)</em> Enable Pandoc
+                    <ul>
+                        <li>Optionally you may use Pandoc to render the Markdown preview. To enable Pandoc within MPP:
+                            <ol style="list-style-type: decimal">
+                                <li>Install pandoc</li>
+                                <li>Run <code>which pandoc</code> and note the full path to the Pandoc executable.</li>
+                                <li>On the MPP settings page enable <strong>Enable Pandoc Parser</strong></li>
+                                <li>Enter the path from step 2 into <strong>Pandoc Options: Path</strong></li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="image">
+            <img src="images/linux.png" alt=""/>
+        </div>
+    </section>
+
+    <!-- Five -->
+    <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h2 id="macos">MacOS</h2>
+            <p>I have not personally installed this on a MacOS system, so I cannot provide installation instructions,
+                although I
+                imagine they would be similar to the Linux instructions because MacOS has Bash installed by default.</p>
+        </div>
+        <div class="image">
+            <img src="images/macbook.png" alt=""/>
+        </div>
+    </section>
+
+    <!-- Five -->
+    <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h1 id="how-to-use">How to Use</h1>
+            <p>Once everything has been installed you're ready to take notes in Markdown. Open up Atom to get
+                started.</p>
+            <h3 id="create-a-new-markdown-file">1. Create a new Markdown file</h3>
+            <p>Once Atom is open use <code>ctrl + n</code> to open a new file tab. (Alternatively use
+                <strong>File</strong> &gt;
+                <strong>New File</strong>)</p>
+            <p>From there use <code>ctrl + s</code> to save the file as <code>filename.md</code> the
+                <strong>.md</strong> is
+                important because it defines the file as a Markdown file.</p>
+            <h3 id="begin-typing">2. Begin typing</h3>
+            <p>Now you're ready to type in the document. There's just one last thing you need, to be able to see your
+                working
+                product. Use <code>ctrl + shift + M</code> to open the markdown preview. You must be clicked inside your
+                markdown
+                file tab to ensure the preview appears. If you're using LaTeX math make sure to press <code>ctrl + shift
+                    + X</code>
+                to preview it in the preview window. There is a setting you can enable to enable math by default.</p>
+            <h3 id="export-your-work">3. Export your work</h3>
+            <p>Now that you've typed up some notes, maybe you want to print them, or share them with others. Well now
+                comes the part
+                where you use Pandoc.</p>
+            <ol style="list-style-type: decimal">
+                <li>Open up your Terminal (<em>cmd</em> in Windows and <em>Terminal</em> in Linux)</li>
+                <li>Run the command <code>pandoc path/to/file.md -o path/to/export.pdf</code>
+                    <ul>
+                        <li>Example: <code>pandoc ~/Documents/Notes/MathNotes.md -o
+                            ~/Documents/Notes/MathNotes.pdf</code></li>
+                        <li>If you're using <em>bash on ubuntu on windows</em> you need to run <code>export
+                            GHCRTS=-V0</code> once
+                            per session before it will work properly
+                        </li>
+                    </ul>
+                </li>
+                <li>Now if you go to the path where you set the <strong>.pdf</strong> file, you'll find your document
+                    waiting for
+                    you.
+                </li>
+            </ol>
+        </div>
+        <div class="image">
+            <img src="images/markdown.jpg" alt=""/>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
