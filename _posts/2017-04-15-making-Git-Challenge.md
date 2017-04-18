@@ -3,10 +3,10 @@ layout: post
 title:  Making Git-Challenge
 subtitle: I wanted to make Git Commits Competitive
 description: I wanted to make Git Commits Competitive, so here's Git-Challenge.
-date:   2017-04-18 20:10:00
+date:   2017-04-15 20:10:00
 categories: coding projects git
-featured-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-18-making-Git-Challenge.jpg
-thumbnail-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-18-making-Git-Challenge.jpg
+featured-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-15-making-Git-Challenge.jpg
+thumbnail-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-15-making-Git-Challenge.jpg
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513
