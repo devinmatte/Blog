@@ -3,7 +3,7 @@ layout: post
 title:  Building a new Personal Site
 subtitle: I guess I should actually write a blog now huh?
 description: I was tired of the pretty garbage looking website that I had for a long time and I decided I wanted a new one. I also wanted to see if it would be worth setting up a blog. So here we go!
-date:   2017-04-19 18:10:00
+date:   2017-04-18 18:10:00
 categories: blog coding projects
 featured-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-18-building-a-personal-blog-portfolio/Screenshot.jpg
 thumbnail-image: https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-18-building-a-personal-blog-portfolio/Screenshot.jpg
