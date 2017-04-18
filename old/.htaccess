@@ -1,4 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteCond %{HTTP_HOST} ^csh.rit.edu/~matted
-RewriteRule ^(.*) https://devinmatte.com/$1 [P]
-</IfModule>

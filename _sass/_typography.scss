@@ -1,0 +1,35 @@
+html {
+    font-size: $base-font-size;
+}
+
+abbr {
+    border-bottom: $abbr-border-bottom;
+    cursor: help;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+small,
+.small {
+    font-size: 0.707rem;
+}
+
+sup {
+    position: relative;
+    vertical-align: middle;
+    top: -0.9ex;
+}
+
+.list-horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    margin: 5% 0 0 0;
+    li {
+    	width: 25%;
+    }
+}

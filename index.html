@@ -2,53 +2,32 @@
 layout: default
 ---
 
-<div class="main-container transition--fade">
-    <section class="cover cover-12 form--dark imagebg height-100 parallax" data-overlay="4">
-        <div class="background-image-holder">
-            <img alt="image" src="img/hero14.jpg" />
-        </div>
-        <div class="container pos-vertical-center text-center-xs">
-            <div class="row pos-vertical-align-columns">
-                <div class="col-md-7 col-sm-8 col-sm-offset-2">
-                    <h2>Build smart, effective websites in no time with Pillar</h2>
-                    <div class="modal-instance modal-video-1">
-                        <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                        <span class="h6">Watch The Overview</span>
-                        <div class="modal-container">
-                            <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                <iframe src="https://www.youtube.com/embed/4QUVRm4UZA4?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                            </div>
-                            <!--end of modal-content-->
-                        </div>
-                        <!--end of modal-container-->
-                    </div>
-                    <!--end of modal instance-->
-                </div>
-                <div class="col-md-5 col-sm-8 col-sm-offset-2">
-                    <div class="form-subscribe-1 boxed boxed--lg bg--white text-center box-shadow-wide">
-                        <h4>Keep Informed</h4>
-                        <p class="lead">
-                            Subscribe for free resources and news updates.
-                        </p>
-                        <form class="" action="http://mrareco.createsend.com/t/d/s/kieth/" method="post" id="subForm" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email.">
-                            <div class="input-with-icon">
-                                <label for="fieldName">Your Name</label>
-                                <i class="icon icon-Male-2"></i>
-                                <input id="fieldName" name="cm-name" type="text" />
-                            </div>
-                            <div class="input-with-icon">
-                                <label for="fieldEmail">Email Address</label>
-                                <i class="icon icon-Mail-2"></i>
-                                <input class="validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" required />
-                            </div>
-                            <button type="submit">Subscribe Now</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </section>
+{% assign posts_count = (paginator.posts | size) %}
 
-    
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post py3">
+          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <div class="text-circle-outside" style="background-image: url({{post.thumbnail-image}});">
+              </div>
+            </a>
+          <p class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% include pagination.html %}
+  {% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
+  {% endif %}
+</div>
