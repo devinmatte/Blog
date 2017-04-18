@@ -5,6 +5,7 @@ author: Devin Matte
 description: "Repo description"
 baseurl: "/devinmatte.com"
 url: "http://devinmatte.github.io"
+date_format: "%b %-d, %Y"
 
 # Google services
 google_analytics:
@@ -20,7 +21,7 @@ enable_mathjax: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: pixyll
+disqus_shortname: 
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -29,7 +30,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: devinmatte
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
