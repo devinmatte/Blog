@@ -14,3 +14,6 @@ author-bio: First Year Software Engineering Student at Rochester Institute of Te
 ---
 
 I guess I have a blog now?
+
+I never really saw myself as someone with a blog. However when I was looking into designs for remaking my personal site, I just kept coming back to the design of a blog.
+The longer I thought about it. The more interesting the thought became.
