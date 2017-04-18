@@ -3,7 +3,7 @@ title: devinmatte.com
 email: devinmatte@gmail.com
 author: Devin Matte
 description: "Repo description"
-baseurl: "/devinmatte.com"
+baseurl: ""
 url: "http://devinmatte.github.io"
 date_format: "%b %-d, %Y"
 
