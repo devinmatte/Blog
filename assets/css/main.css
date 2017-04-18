@@ -697,11 +697,11 @@ ol li {
 ul {
     list-style: disc;
     margin: 0 0 2rem 0;
-    padding-left: 1.0em;
+    padding-left: 1em;
 }
 
 ul li {
-    padding-left: 1.0em;
+    padding-left: 0.5em;
 }
 
 ul.alt {
@@ -1291,10 +1291,10 @@ body.is-loading #bg:before {
 
 #header nav ul li a {
     display: block;
-    min-width: 50rem;
+    min-width: 7.5rem;
     height: 2.75rem;
     line-height: 2.75rem;
-    padding: 0 1.45rem 0 1.45rem;
+    padding: 0 1.25rem 0 1.45rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
@@ -1408,7 +1408,7 @@ body.is-loading #header .content .inner {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        min-width: 50rem;
+        min-width: 10rem;
         max-width: 100%;
     }
 
@@ -1424,7 +1424,7 @@ body.is-loading #header .content .inner {
     #header nav ul li a {
         height: 3rem;
         line-height: 3rem;
-        min-width: 50rem;
+        min-width: 0;
         width: 100%;
     }
 
@@ -1475,7 +1475,7 @@ body.is-loading #header .content .inner {
     -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
     position: relative;
     width: 40rem;
     max-width: 100%;
@@ -1535,7 +1535,7 @@ body.is-loading #header .content .inner {
 @media screen and (max-width: 736px) {
 
     #main article {
-        padding: 3.5rem 2rem 0.5rem 2rem;
+        padding: 3.5rem 2rem 0.5rem 2rem ;
     }
 
     #main article .close:before {
@@ -1551,7 +1551,7 @@ body.is-loading #header .content .inner {
 @media screen and (max-width: 480px) {
 
     #main article {
-        padding: 3rem 1.5rem 0.5rem 1.5rem;
+        padding: 3rem 1.5rem 0.5rem 1.5rem ;
     }
 
 }
