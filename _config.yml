@@ -1,11 +1,10 @@
 # Site settings
-title:       Pixyllated
-email:       jdwallace12@example.com
-author:      John Wallace
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "/pixyllated"
-url:         "jdwallace12.github.io/pixyllated/"
-date_format: "%b %-d, %Y"
+title: devinmatte.com
+email: devinmatte@gmail.com
+author: Devin Matte
+description: "Repo description"
+baseurl: "/devinmatte.com"
+url: "http://devinmatte.github.io"
 
 # Google services
 google_analytics:
@@ -91,14 +90,6 @@ text:
 
 
 # Build settings
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
-sass:
-  compressed: true
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+markdown: kramdown
+permalink: pretty
+paginate: 3
