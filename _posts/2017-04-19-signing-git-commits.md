@@ -15,4 +15,4 @@ author-bio: First Year Software Engineering Student at Rochester Institute of Te
 
 I recently discovered an interesting thing you can do with git commits. Signing individual commits.
 
-![How it looks on GitHub](https://devinmatte.github.io/devinmatte.com/images/posts/2017-04-19-signing-git-commits.jpg)
+![How it looks on GitHub](https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits.jpg)
