@@ -36,7 +36,7 @@ ssb   4096R/42B317FD4BA89E7A 2017-04-17
 
 Signing Commits
 ---------------
-Now that you have a GPG key. It's time to use it with git. You'll need to tell git about your key. Make sure you're using a version of `git` above `2.00.0`
+Now that you have a GPG key. It's time to use it with git. You'll need to tell git about your key.
 
 1. Open a terminal and type out
 ```
@@ -51,7 +51,7 @@ ssb   4096R/42B317FD4BA89E7A 2017-04-17
 
 Now you're set up to start signing commits. The way you'd do that is with `git commit -S`. However you really should want to sign *all* your commits. So it's quite obvious that your work is yours.
 
-3.
+3. Set the default status on git:
     - `git config --global commit.gpgsign true` sets **All Commits** inside **All Repositories** on your machine to default as signed.
     - `git config commit.gpgsign true` sets **All Commits** inside a single repository on your machine to default as signed.
 
