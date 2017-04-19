@@ -56,7 +56,7 @@ Now you're set up to start signing commits. The way you'd do that is with `git c
     - `git config commit.gpgsign true` sets **All Commits** inside a single repository on your machine to default as signed.
 
 Now when you first set this up you may experience the annoyance of typing in your password every time you make a commit. This can be annoying. You'll also notice that it breaks commit functionality in other programs such as Jetbrains IDEs. So I looked around and found a simple solution
-4. Edit `~/.gnupg/pgp.conf` and add these two lines to the bottom:
+4. Edit `~/.gnupg/gpg.conf` and add these two lines to the bottom:
 
 ```
 no-tty
