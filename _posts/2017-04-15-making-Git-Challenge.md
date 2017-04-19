@@ -6,7 +6,7 @@ description: I wanted to make Git Commits Competitive, so here's Git-Challenge.
 date:   2017-04-15 20:10:00
 categories: coding projects git
 featured-image: https://devinmatte.github.io/images/posts/2017-04-15-making-Git-Challenge.jpg
-thumbnail-image: https://devinmatte.github.io/images/posts/2017-04-15-making-Git-Challenge.jpg
+thumbnail-image: https://devinmatte.github.io/images/posts/2017-04-15-making-Git-Challenge2.jpg
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513
