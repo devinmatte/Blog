@@ -75,3 +75,5 @@ Now one of the points of this, is to show inside your repositories that you've s
 
 So once you have your GPG key added to GitHub, all signed commits will display as verified. Currently it appears that GitHub is the only site that supporting GPG keys. (GitLab is currently working on it. Check [issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)).
 ![How it looks on GitHub](https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits.jpg)
+
+Interested to learn more? Read the [documentation](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) on git's site
