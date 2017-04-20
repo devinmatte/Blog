@@ -55,14 +55,14 @@ share_digg: false
 share_tumblr: false
 share_reddit: true
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 text:
   pagination:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share this post!'
+    text:         'Like this? Share it!'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
