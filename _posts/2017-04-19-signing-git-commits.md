@@ -10,7 +10,7 @@ thumbnail-image: https://devinmatte.github.io/images/posts/2017-04-19-signing-gi
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513
-author-bio: First Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 I recently discovered an interesting thing you can do with git commits. Signing individual commits. Now I know that this may not be new to a lot of people, but from my experience looking around GitHub, it doesn't appear as though many people do it. In fact I've only seen one person other than myself with verified commits! So I wanted to share with you all today, how you can sign your own commits.
