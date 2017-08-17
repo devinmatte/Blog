@@ -1,8 +1,8 @@
 {
   "name": "Devin Matte Referrals",
   "short_name": "Referrals",
-  "theme_color": "#ADD8E9",
-  "background_color": "#ADD8E9",
+  "theme_color": "#9975B9",
+  "background_color": "#9975B9",
   "start_url": "/",
   "display": "minimal-ui",
   "lang": "en-US",

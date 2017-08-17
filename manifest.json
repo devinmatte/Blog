@@ -1,8 +1,8 @@
 {
   "name": "Devin Matte Blog",
   "short_name": "devinmatte.me",
-  "theme_color": "#ADD8E6",
-  "background_color": "#ADD8E6",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "start_url": "/",
   "display": "minimal-ui",
   "lang": "en-US",
