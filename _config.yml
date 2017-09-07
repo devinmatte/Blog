@@ -93,4 +93,4 @@ text:
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 3
+paginate: 5
