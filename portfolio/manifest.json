@@ -1,0 +1,19 @@
+{
+    "background_color": "#FFF",
+    "description": "Devin Matte's Portfolio Site",
+    "dir": "auto",
+    "display": "minimal-ui",
+    "icons": [
+        {
+            "sizes": "128x128",
+            "src": "images/icon.png",
+            "type": "img/png"
+        }
+    ],
+    "lang": "en",
+    "name": "Devin Matte Portfolio",
+    "orientation": "any",
+    "short_name": "Devin Matte",
+    "start_url": "/",
+    "theme_color": "#FFF"
+}
