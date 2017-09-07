@@ -5,8 +5,8 @@ subtitle: Markdown, Pandoc and Black Magic
 description: Taking notes in markdown, with latex, can be really useful
 date:   2017-04-15 20:10:00
 categories: coding projects git
-featured-image: 
-thumbnail-image: 
+featured-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown.png
+thumbnail-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown2.png
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513
@@ -85,7 +85,7 @@ From there use `ctrl + s` to save the file as `filename.md` the **.md** is impor
 Now you're ready to type in the document. There's just one last thing you need, to be able to see your working product. Use `ctrl + shift + M` to open the markdown preview. You must be clicked inside your markdown file tab to ensure the preview appears. If you're using LaTeX math make sure to press `ctrl + shift + X` to preview it in the preview window. There is a setting you can enable to enable math by default.
 
 ### 3. Using Math
-Now you may want to use Math Equations in your notes, because let's face it, if you didn't need a little bit more tha your average text editor, you'd just use an average text editor.            </p>
+Now you may want to use Math Equations in your notes, because let's face it, if you didn't need a little bit more tha your average text editor, you'd just use an average text editor.
 
 #### Writing Block Equations
 When writing block math, put two dollar signs `$$` at a line above and below the equation
