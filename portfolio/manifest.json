@@ -14,6 +14,6 @@
     "name": "Devin Matte Portfolio",
     "orientation": "any",
     "short_name": "Devin Matte",
-    "start_url": "/",
+    "start_url": "/portfolio",
     "theme_color": "#FFF"
 }
