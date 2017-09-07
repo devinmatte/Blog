@@ -13,8 +13,6 @@ author-image: https://avatars3.githubusercontent.com/u/9310513
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 
-Notetaking-In-Markdown
-======================
 This explains my notetaking method using Markdown, LaTeX and Pandoc and how I set it up. All Instructions listed here are written for *my* personal method. Once you understand how I set it up, there are plenty of ways you can adapt this knowledge to a setup that works for you.
 
 Installation
