@@ -4,7 +4,7 @@ title:  Notetaking in Markdown
 subtitle: Markdown, Pandoc and Black Magic
 description: Taking notes in markdown, with latex, can be really useful
 date:   2017-04-15 20:10:00
-categories: coding projects git
+categories: markdown
 featured-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown.png
 thumbnail-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown2.png
 comments: true
