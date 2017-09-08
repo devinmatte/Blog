@@ -4,7 +4,7 @@ title:  Bash ain't all That
 subtitle: Switching from Bash to Zsh
 description: Why I decided to switch from bash to zsh and why you should too
 date:   2017-06-14 15:15:00
-categories: bash, zsh
+categories: bash zsh
 featured-image: https://devinmatte.github.io/images/posts/2017-06-14-options.png
 thumbnail-image: https://devinmatte.github.io/images/posts/2017-06-14-options.png
 comments: true
