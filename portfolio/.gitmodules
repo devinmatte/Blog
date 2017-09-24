@@ -1,6 +1,0 @@
-[submodule "portfolio/Git-Challenge"]
-	path = portfolio/Git-Challenge
-	url = https://github.com/devinmatte/Git-Challenge
-[submodule "portfolio/Calendar-Maker"]
-	path = portfolio/Calendar-Maker
-	url = https://github.com/NHSTechTeam/Calendar-Maker
