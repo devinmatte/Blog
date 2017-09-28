@@ -7,6 +7,7 @@
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
+    <link rel="icon" type="image/png" sizes="128x128" href="{{ "/images/icon.png" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
 
@@ -15,7 +16,6 @@
 
     <!-- Manifest -->
     <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="128x128" href="{{ "/images/icon.png" | prepend: site.baseurl }}">
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
