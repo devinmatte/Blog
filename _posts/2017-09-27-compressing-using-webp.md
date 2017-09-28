@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Compressing with Webp
-subtitle: Using Webp to improve performance
-description: Webp can be used to compress files losslessly for better site performance
+title:  Compressing with WebP
+subtitle: Using WebP to improve performance
+description: WebP can be used to compress files losslessly for better site performance
 date:   2017-09-27 22:05:00
 categories: webp
 featured-image: https://devinmatte.github.io/images/posts/2017-09-27-before.png
@@ -22,7 +22,7 @@ You know what it's like when you visit a page and the page loads, before the ima
 That's not really ideal. 
 The faster your page loads, the better for your users, which in turn is better for your page views.
 
-![Before Webp](https://devinmatte.github.io/images/posts/2017-09-27-before.png)
+![Before WebP](https://devinmatte.github.io/images/posts/2017-09-27-before.png)
 
 When you run the chrome audit, one of the recommendations to improve performance is to [use `webp`](https://developers.google.com/web/tools/lighthouse/audits/webp). 
 I was ignoring that advice for a while for a lack of understanding, due to google's poor documentation of how to set it up.
@@ -51,3 +51,15 @@ Use Webp
 cwebp -lossless before.png -o after.webp
 ```
 
+Now when you use them, you need to keep in mind that not all browsers support `webp`.
+Because of that you need to build in some fallback
+
+```html
+<picture>
+  <source srcset="img/awesomeWebPImage.webp" type="image/webp">
+  <source srcset="img/creakyOldJPEG.jpg" type="image/jpeg"> 
+  <img src="img/creakyOldJPEG.jpg" alt="Alt Text!">
+</picture>
+```
+
+With this implemented instead of your old simple `<img>` tag, it'll load the smallest available file. You can check in chrome if it's working by looking at the `Network` tab, or by running another audit and seeing the new score for `Serve images as WebP`
