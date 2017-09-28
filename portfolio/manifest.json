@@ -1,5 +1,5 @@
 {
-    "background_color": "#FFF",
+    "background_color": "#1C304B",
     "description": "Devin Matte's Portfolio Site",
     "dir": "auto",
     "display": "minimal-ui",
@@ -15,5 +15,5 @@
     "orientation": "any",
     "short_name": "Devin Matte",
     "start_url": "/portfolio",
-    "theme_color": "#FFF"
+    "theme_color": "#ACC1DC"
 }
