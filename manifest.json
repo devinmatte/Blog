@@ -1,10 +1,10 @@
 {
   "name": "Devin Matte Blog",
   "short_name": "devinmatte.me",
-  "theme_color": "#fff",
+  "theme_color": "#333",
   "background_color": "#fff",
   "start_url": "/",
-  "display": "standalone",
+  "display": "minimal-ui",
   "lang": "en-US",
   "orientation": "portrait",
   "icons": [
