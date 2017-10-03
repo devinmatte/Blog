@@ -1,0 +1,3 @@
+[submodule "portfolio/resume"]
+	path = portfolio/resume
+	url = https://github.com/devinmatte/resume
