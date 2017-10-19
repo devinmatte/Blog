@@ -13,7 +13,7 @@ author-image: https://avatars3.githubusercontent.com/u/9310513
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 
-[GitHub](https://github.com) is a wonderful, incredible tool. One that I might be a little too obsessed with. But even then, I'd love to share my obsession with anyone who might be new to the platform and show them what great tools [GitHub](https://github.com) provides.
+[GitHub](https://github.com) is a wonderful, incredible tool. One that I might be a little too obsessed with. [GitHub](https://github.com) is a great tool for any new developer to get familiar with. Not only does it make the life of a Software Engineer easier, it makes getting a job easier too. I'd love to share my obsession with anyone who might be new to the platform and show them what great tools [GitHub](https://github.com) provides.
 
 [Follow along with the Presentation](http://devinmatte.me/presentations/intro-to-github)
 
@@ -32,7 +32,7 @@ When recruiters/potential employers go to look for you online, you want them to 
 If you're not a student at a College/University Skip this section, it'll just make you want to into [more] student debt.
 
 # Your Profile
-Your Profile is also really important in the grand scheme of GitHub. Think of your profile as your portfolio. You want it to show off your best work, and look good. This means you should have a couple key things:
+Your Profile is also really important in the grand scheme of [GitHub](https://github.com). Think of your profile as your portfolio. You want it to show off your best work, and look good. This means you should have a couple key things:
 
 - A profile picture that is you
 - A short description
@@ -57,7 +57,7 @@ You can pin any project that you've worked on, not just projects that you own. H
 ![Pinning Repositories](https://devinmatte.github.io/images/posts/intro-to-github/pinned2.png)
 
 # Adding Projects
-GitHub is a great place to start when creating a new project. The first thing you do is make a repository, and you're off to the races. However often you have existing projects sitting around that are not yet on GitHub. Well, what are you waiting for?
+[GitHub](https://github.com) is a great place to start when creating a new project. The first thing you do is make a repository, and you're off to the races. However often you have existing projects sitting around that are not yet on GitHub. Well, what are you waiting for?
 
 Well, sometimes there are reasons that a project isn't on GitHub.
 
@@ -65,7 +65,7 @@ Well, sometimes there are reasons that a project isn't on GitHub.
 - It's a class assignment/project
 - You're not proud of it
 
-Well some of those reasons are valid, but other's are not you should put as much as you can on GitHub. Personal Projects, Tutorials you completed or are currently going through, and some Class Projects*.
+Well some of those reasons are valid, but other's are not you should put as much as you can on [GitHub](https://github.com). Personal Projects, Tutorials you completed or are currently going through, and some Class Projects*.
 
 \* Some class projects you should keep offline. If you have permission however to make the code public, by all means do it! It shows off your skills!
 
@@ -104,7 +104,7 @@ Don't say that. What better way to show how you've improved than by being able t
 GitHub has these wonderful features embedded into repositories called Issues and Projects. You are likely to be more familiar with issues, but both are great tools that you should take advantage of.
 
 ## Issues
-Issues are GitHub's version of dealing with bug tracking, feature requests, user questions, and everything in-between. Any GitHub user can create an issue on any repository that they have access to. You could right this very moment, go to any public repository, and submit any issue you'd want.
+Issues are [GitHub](https://github.com)'s version of dealing with bug tracking, feature requests, user questions, and everything in-between. Any GitHub user can create an issue on any repository that they have access to. You could right this very moment, go to any public repository, and submit any issue you'd want.
 Issues are great for developers, because it allows for their users to submit bugs, in the same place that they track new feature requests, and track their plans.
 
 ![Issues](https://devinmatte.github.io/images/posts/intro-to-github/issues.png)
@@ -132,6 +132,6 @@ An example of a good issue would be:
 - Labels are attached
 
 ## Projects
-Projects are one of the newest features to GitHub repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
+Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
 
 ![Project Board Example](https://devinmatte.github.io/images/posts/intro-to-github/projects.png)
