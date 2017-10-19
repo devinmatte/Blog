@@ -13,11 +13,11 @@ author-image: https://avatars3.githubusercontent.com/u/9310513
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 
-## [Follow along with the Presentation](http://devinmatte.me/presentations/intro-to-github)
-
 [GitHub](https://github.com) is a wonderful, incredible tool. One that I might be a little too obsessed with. But even then, I'd love to share my obsession with anyone who might be new to the platform and show them what great tools [GitHub](https://github.com) provides.
 
-> This is not an intro to git. A lot of the basic git knowledge will be assumed
+[Follow along with the Presentation](http://devinmatte.me/presentations/intro-to-github)
+
+*Note: This is not an intro to git. A lot of the basic git knowledge will be assumed*
 
 # Signing Up
 When signing up for [GitHub](https://github.com), your username is important. For most of your life, you've picked usernames that fit what you wanted them to be. However [GitHub](https://github.com) isn't account you're making just to share memes with friends. [GitHub](https://github.com) is likely to become a portfolio and hub of all your professional projects and content. Because of that, you should treat your account with a little bit of decorum.
@@ -98,7 +98,7 @@ If you ever forget these commands, or steps, GitHub will walk you through it the
 
 ### "My Code isn't good enough"
 
-Don't say that. What better way to show how you've improved than by being able to look back at where you came from? Don't be discouraged by bad code! You're likely just starting out, no one expects anything incredible. If I got rid of all the terrible code I have on my GitHub, I'd have 1 project, which in a couple months, I'll look back on and want to remove it. Bad code is fine, it shows your improvement. It also shows that you're willing to spend time learning new Technology and languages even though you might not be skilled.
+Don't say that. What better way to show how you've improved than by being able to look back at where you came from? Don't be discouraged by bad code! You're likely just starting out, no one expects anything incredible. If I got rid of all the terrible code I have on [my GitHub](https://github.com/devinmatte), I'd have 1 project, which in a couple months, I'll look back on and want to remove it. Bad code is fine, it shows your improvement. It also shows that you're willing to spend time learning new Technology and languages even though you might not be skilled.
 
 # Issues and Projects
 GitHub has these wonderful features embedded into repositories called Issues and Projects. You are likely to be more familiar with issues, but both are great tools that you should take advantage of.
@@ -124,7 +124,7 @@ These parts together make for some very useful items that can store a lot of det
 
 An example of a good issue would be:
 
-![Good Issue](https://devinmatte.github.io/images/posts/intro-to-github/good-issue.png)
+[![Good Issue](https://devinmatte.github.io/images/posts/intro-to-github/good-issue.png)](https://github.com/ComputerScienceHouse/CSHPublicSite/issues/163)
 
 - Markdown is used
 - Images are included
