@@ -1,10 +1,10 @@
 # Site settings
-title: devinmatte.com
-email: devinmatte@gmail.com
+title: devinmatte.me
+email: devin@devinmatte.com
 author: Devin Matte
-description: "Repo description"
+description: "Devin Matte's Blog for posting about everything I'm learning about, and want to talk about"
 baseurl: ""
-url: "http://devinmatte.github.io"
+url: "http://devinmatte.me"
 date_format: "%b %-d, %Y"
 
 # Google services
