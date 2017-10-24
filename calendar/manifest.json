@@ -1,0 +1,19 @@
+{
+    "background_color": "#1C304B",
+    "description": "Devin Matte's Public Calendar",
+    "dir": "auto",
+    "display": "minimal-ui",
+    "icons": [
+        {
+            "sizes": "128x128",
+            "src": "images/icon.png",
+            "type": "img/png"
+        }
+    ],
+    "lang": "en-us",
+    "name": "Devin Matte Calendar",
+    "orientation": "any",
+    "short_name": "Devin Matte",
+    "start_url": "/calendar",
+    "theme_color": "#ACC1DC"
+}
