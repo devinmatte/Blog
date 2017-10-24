@@ -46,6 +46,8 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+    <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}https://avatars3.githubusercontent.com/u/9310513{% endif %}"/>
+    <meta property="og:image:secure_url" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}https://avatars3.githubusercontent.com/u/9310513{% endif %}" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
