@@ -131,6 +131,25 @@ An example of a good issue would be:
 - Title is descriptive
 - Labels are attached
 
+## Forks
+Forks are best described as a copy of a repository, that can be treated like expanded branches. Okay, well that description might confuse people more. GitHub describes it as:
+
+> A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
+
+![Fork Graph](https://devinmatte.github.io/images/posts/intro-to-github/graph.png)
+
+At a base level, a fork is a copy of a repository, with a reference to the master copy so that you may compare changes against it. Forks are a huge deal for GitHub. For a series of reason, first being that all forks, display and point to the original giving proper credit to where credit is due. The second being, that you can use Forks to compare changes to the master repository in a Pull Request.
+
+## Pull Requests
+Oh Boy! The big boys! Pull Requests are the biggest, coolest, most useful, thing about GitHub (in my opinion). Pull requests are a lot of things, but we should take it one step at a time.
+
+![Pull Requests](https://devinmatte.github.io/images/posts/intro-to-github/prs.png)
+
+A pull request is used to compare changes between branches and forks of a repository. If a pull request is made from one branch/fork to another, it looks to see how many new changes have been made, and then displays those changes with a diff, and list of new commits.
+
+![Pull Request Diff](https://devinmatte.github.io/images/posts/intro-to-github/exampleDiff.png)
+
 ## Projects
 Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
 
