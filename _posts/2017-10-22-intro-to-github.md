@@ -144,11 +144,17 @@ At a base level, a fork is a copy of a repository, with a reference to the maste
 ## Pull Requests
 Oh Boy! The big boys! Pull Requests are the biggest, coolest, most useful, thing about GitHub (in my opinion). Pull requests are a lot of things, but we should take it one step at a time.
 
-![Pull Requests](https://devinmatte.github.io/images/posts/intro-to-github/prs.png)
+![Pull Requests](https://devinmatte.github.io/images/posts/intro-to-github/pullrequests.png)
 
 A pull request is used to compare changes between branches and forks of a repository. If a pull request is made from one branch/fork to another, it looks to see how many new changes have been made, and then displays those changes with a diff, and list of new commits.
 
 ![Pull Request Diff](https://devinmatte.github.io/images/posts/intro-to-github/exampleDiff.png)
+
+Pull requests are made to merge to branches through some form of approval process. When a pull request is made, in order for anything to happen, someone with write access to the repository needs to merge it. Sometimes repositories but restrictions even further. Like requiring someone to approve the changes, or by requiring the pull request to pass a series of tests.
+
+![Pull Request Checks](https://devinmatte.github.io/images/posts/intro-to-github/approved.png)
+
+If you're more interested on the Fork/Pull Request work-flow, there's a decent [gist](https://gist.github.com/Chaser324/ce0505fbed06b947d962) available on the topic
 
 ## Projects
 Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
