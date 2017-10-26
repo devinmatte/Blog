@@ -29,7 +29,13 @@ When recruiters/potential employers go to look for you online, you want them to 
 ![Sign Up View](https://devinmatte.github.io/images/posts/intro-to-github/sign-up.png)
 
 ## GitHub Student
-If you're not a student at a College/University Skip this section, it'll just make you want to into [more] student debt.
+If you're not a student at a College/University Skip this section.
+
+![](https://dwa5x7aod66zk.cloudfront.net/assets/sdp-backpack-a64038716bf134f45e809ff86b9611fb97e41bbd2ccfa3181da73cf164d3c200.png)
+
+GitHub provides a wonderful service for students, where they work with all kinda of development platforms to put together a package of useful tools to help new student developers learn how to break into the industry. Through providing everything from GitHub Developer (unlimited private repositories) to $50 of [DigitalOcean](https://www.digitalocean.com/) credit.
+
+See what else the offer by getting the pack yourself at  [education.github.com/pack](https://education.github.com/pack)
 
 # Your Profile
 Your Profile is also really important in the grand scheme of [GitHub](https://github.com). Think of your profile as your portfolio. You want it to show off your best work, and look good. This means you should have a couple key things:
