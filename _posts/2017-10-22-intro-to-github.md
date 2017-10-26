@@ -146,6 +146,15 @@ Projects is GitHub's solution to [Jira](https://www.atlassian.com/software/jira)
 
 ![Bootstrap Project Board Example](https://devinmatte.github.io/images/posts/intro-to-github/exampleProject.png)
 
+# Releases
+Releases are a great way to help save states and versions of a project. You can tag a point in time and pull, clone, go back to and even attach binaries to a version.
+
+![A single Release](https://devinmatte.github.io/images/posts/intro-to-github/release.png)
+
+Version tagging is important. GitHub recommends that you use semantic versioning `v1.0.0-beta`. This allows for you to keep track of a project like a proper piece of software.
+
+![Tagged Versions](https://devinmatte.github.io/images/posts/intro-to-github/tags.png)
+
 # Forks and Pull Requests
 GitHub is great mostly because of Forks and Pull Requests and the advantages that come with them. Because of Forks and Pull Requests the open source community has thrived on GitHub, and has even developed some modern agile practices across the field.
 
