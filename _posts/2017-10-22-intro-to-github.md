@@ -2,8 +2,8 @@
 layout: post
 title:  Intro to GitHub
 subtitle: Introducing new Students to GitHub
-description: GitHub is an incredible tool, not only for development, but to learning
-date:   2017-10-22 12:25:00
+description: GitHub is an incredible tool, not only for development, but for learning
+date:   2017-10-26 15:55:00
 categories: git GitHub
 featured-image: https://devinmatte.github.io/images/posts/intro-to-github/profile.png
 thumbnail-image: https://devinmatte.github.io/images/posts/intro-to-github/profile.png
@@ -29,9 +29,9 @@ When recruiters/potential employers go to look for you online, you want them to 
 ![Sign Up View](https://devinmatte.github.io/images/posts/intro-to-github/sign-up.png)
 
 ## GitHub Student
-If you're not a student at a College/University Skip this section.
+**If you're not a student at a College/University Skip this section.**
 
-![](https://dwa5x7aod66zk.cloudfront.net/assets/sdp-backpack-a64038716bf134f45e809ff86b9611fb97e41bbd2ccfa3181da73cf164d3c200.png)
+![](https://hackhands.com/data/blogs/ClosedSource/hackhands-github-student-developer-pack/assets/github.png)
 
 GitHub provides a wonderful service for students, where they work with all kinda of development platforms to put together a package of useful tools to help new student developers learn how to break into the industry. Through providing everything from GitHub Developer (unlimited private repositories) to $50 of [DigitalOcean](https://www.digitalocean.com/) credit.
 
@@ -137,6 +137,18 @@ An example of a good issue would be:
 - Title is descriptive
 - Labels are attached
 
+## Projects
+Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
+
+![Project Board Example](https://devinmatte.github.io/images/posts/intro-to-github/projects.png)
+
+Projects is GitHub's solution to [Jira](https://www.atlassian.com/software/jira) and [Trello](https://trello.com/) in the marketplace. Agile boards aren't that complex, so they simply made one in GitHub, that uses issues and pull requests as the cards.
+
+![Bootstrap Project Board Example](https://devinmatte.github.io/images/posts/intro-to-github/exampleProject.png)
+
+# Forks and Pull Requests
+GitHub is great mostly because of Forks and Pull Requests and the advantages that come with them. Because of Forks and Pull Requests the open source community has thrived on GitHub, and has even developed some modern agile practices across the field.
+
 ## Forks
 Forks are best described as a copy of a repository, that can be treated like expanded branches. Okay, well that description might confuse people more. GitHub describes it as:
 
@@ -146,6 +158,8 @@ Most commonly, forks are used to either propose changes to someone else's projec
 ![Fork Graph](https://devinmatte.github.io/images/posts/intro-to-github/graph.png)
 
 At a base level, a fork is a copy of a repository, with a reference to the master copy so that you may compare changes against it. Forks are a huge deal for GitHub. For a series of reason, first being that all forks, display and point to the original giving proper credit to where credit is due. The second being, that you can use Forks to compare changes to the master repository in a Pull Request.
+
+![Example Fork](https://devinmatte.github.io/images/posts/intro-to-github/exampleFork.png)
 
 ## Pull Requests
 Oh Boy! The big boys! Pull Requests are the biggest, coolest, most useful, thing about GitHub (in my opinion). Pull requests are a lot of things, but we should take it one step at a time.
@@ -161,8 +175,3 @@ Pull requests are made to merge to branches through some form of approval proces
 ![Pull Request Checks](https://devinmatte.github.io/images/posts/intro-to-github/approved.png)
 
 If you're more interested on the Fork/Pull Request work-flow, there's a decent [gist](https://gist.github.com/Chaser324/ce0505fbed06b947d962) available on the topic
-
-## Projects
-Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
-
-![Project Board Example](https://devinmatte.github.io/images/posts/intro-to-github/projects.png)
