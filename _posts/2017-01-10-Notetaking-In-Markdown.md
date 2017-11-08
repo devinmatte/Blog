@@ -53,7 +53,7 @@ First we're going to need to grab Atom from [atom.io](https://atom.io/)
 Launch Atom and configure it to your liking then:
 
 1. Install `markdown-preview-plus`
-    - Search for Markdown Preview Plus in Atom's Settings view **File** › **Settings** › **Install** and click **Install**. Please allow 3-5 mins for installation. Alternatively if you would prefer to use the command line utility apm: `apm install markdown-preview-plus`
+    - Search for Markdown Preview Plus in Atom's Settings view **Edit** › **Preferences** › **Install** and click **Install**. Please allow 3-5 mins for installation. Alternatively if you would prefer to use the command line utility apm: `apm install markdown-preview-plus`
 
 2. Disable Markdown Preview
     - Disable the built in Markdown Preview package. You can do this by searching for Markdown Preview in Atom's Settings view **File** › **Settings** › **Packages** and clicking **Disable**.
@@ -85,7 +85,8 @@ From there use `ctrl + s` to save the file as `filename.md` the **.md** is impor
 Now you're ready to type in the document. There's just one last thing you need, to be able to see your working product. Use `ctrl + shift + M` to open the markdown preview. You must be clicked inside your markdown file tab to ensure the preview appears. If you're using LaTeX math make sure to press `ctrl + shift + X` to preview it in the preview window. There is a setting you can enable to enable math by default.
 
 ### 3. Using Math
-Now you may want to use Math Equations in your notes, because let's face it, if you didn't need a little bit more tha your average text editor, you'd just use an average text editor.
+Now you may want to use Math Equations in your notes, because let's face it, if you didn't need a little bit more than your average text editor, you'd just use an average text editor.
+All Math uses LaTeX math equations, there are plenty of online resources to look them up. I used [this](http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) a lot when learning.
 
 #### Writing Block Equations
 When writing block math, put two dollar signs `$$` at a line above and below the equation
@@ -101,6 +102,7 @@ When writing inline, simply put a single `$` on each end of the equation.
 $x^2 - \sqrt{7} \times \pi$
 ```
 
+In order to preview your math live, use `ctrl + shift + X` to toggle math rendering
 
 ### 4. Export your work
 Now that you've typed up some notes, maybe you want to print them, or share them with others. Well now comes the part where you use Pandoc.
@@ -108,5 +110,5 @@ Now that you've typed up some notes, maybe you want to print them, or share them
 1. Open up your Terminal (*cmd* in Windows and *Terminal* in Linux)
 2. Run the command `pandoc path/to/file.md -o path/to/export.pdf`
     - Example: `pandoc ~/Documents/Notes/MathNotes.md -o ~/Documents/Notes/MathNotes.pdf`
-    - If you're using *bash on ubuntu on windows* you need to run `export GHCRTS=-V0` once per session before it will work properly
+    - If you're using *bash on ubuntu on windows* you need to run `export GHCRTS=-V0` once per session before it will work properly.
 3. Now if you go to the path where you set the **.pdf** file, you'll find your document waiting for you.

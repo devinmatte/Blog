@@ -24,3 +24,5 @@ The main difference I've noticed between zsh and bash is speed. When working on 
 However one of the biggest appeals of zsh, is it's extensive customizablity. For me I use [oh-my-zsh](http://ohmyz.sh/) with the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme.
 
 ![Example of theme](https://devinmatte.github.io/images/posts/2017-06-14-theme.png)
+
+There's a lot of cool shells you can find if you look around. Bash is lightweight, not necessarily the best.
