@@ -1,9 +1,9 @@
-[submodule "portfolio/resume"]
-	path = portfolio/resume
-	url = https://github.com/devinmatte/resume
 [submodule "presentations"]
 	path = presentations
 	url = https://github.com/devinmatte/Presentations
 [submodule "markdown"]
 	path = markdown
 	url = https://github.com/devinmatte/Notetaking-In-Markdown
+[submodule "portfolio"]
+	path = portfolio
+	url = https://github.com/devinmatte/Portfolio
