@@ -5,8 +5,8 @@ subtitle: Markdown, Pandoc and Black Magic
 description: Taking notes in markdown, with latex, can be really useful
 date:   2017-01-10 12:15:00
 categories: markdown
-featured-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown.png
-thumbnail-image: https://devinmatte.github.io/images/posts/2017-01-10-Notetaking-in-Markdown2.png
+featured-image: https://blog.devinmatte.com/images/posts/2017-01-10-Notetaking-in-Markdown.png
+thumbnail-image: https://blog.devinmatte.com/images/posts/2017-01-10-Notetaking-in-Markdown2.png
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513

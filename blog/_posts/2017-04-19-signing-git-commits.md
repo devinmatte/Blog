@@ -5,8 +5,8 @@ subtitle: Signing your commits in Git
 description: I recently discovered an interesting thing you can do with git commits. Signing individual commits.
 date:   2017-04-19 14:15:00
 categories: git
-featured-image: https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits.jpg
-thumbnail-image: https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits2.jpg
+featured-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits.jpg
+thumbnail-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits2.jpg
 comments: true
 author: Devin Matte
 author-image: https://avatars3.githubusercontent.com/u/9310513
@@ -15,7 +15,7 @@ author-bio: Second Year Software Engineering Student at Rochester Institute of T
 
 I recently discovered an interesting thing you can do with git commits. Signing individual commits. Now I know that this may not be new to a lot of people, but from my experience looking around GitHub, it doesn't appear as though many people do it. In fact I've only seen one person other than myself with verified commits! So I wanted to share with you all today, how you can sign your own commits.
 
-![How it looks on GitHub](https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits2.jpg)
+![How it looks on GitHub](https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits2.jpg)
 
 How to make a GPG Key
 ---------------------
@@ -74,6 +74,6 @@ Now one of the points of this, is to show inside your repositories that you've s
 3. Copy that to [GitHub](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/) using the instructions from their site.
 
 So once you have your GPG key added to GitHub, all signed commits will display as verified. Currently it appears that GitHub is the only site that supporting GPG keys. (GitLab is currently working on it. Check [issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)).
-![How it looks on GitHub](https://devinmatte.github.io/images/posts/2017-04-19-signing-git-commits.jpg)
+![How it looks on GitHub](https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits.jpg)
 
 Interested to learn more? Read the [documentation](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) on git's site
