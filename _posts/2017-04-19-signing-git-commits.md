@@ -26,6 +26,7 @@ How to make a GPG Key
 4. Enter the desired size and expiration time (you can set it to never expire)
 5. Enter an ID and Secure Password
 6. Use `gpg --list-secret-keys --keyid-format LONG` to get a list of your keys
+
 ```
 /Users/devinmatte/.gnupg/secring.gpg
 ------------------------------------
@@ -39,31 +40,34 @@ Signing Commits
 Now that you have a GPG key. It's time to use it with git. You'll need to tell git about your key.
 
 1. Open a terminal and type out
-```
-$ gpg --list-secret-keys --keyid-format LONG
-/Users/devinmatte/.gnupg/secring.gpg
-------------------------------------
-sec   4096R/3AA5C34371567BD2 2017-04-17 [expires: 2017-04-18]
-uid                          devinmatte
-ssb   4096R/42B317FD4BA89E7A 2017-04-17
-```
+
+    ```
+    $ gpg --list-secret-keys --keyid-format LONG
+    /Users/devinmatte/.gnupg/secring.gpg
+    ------------------------------------
+    sec   4096R/3AA5C34371567BD2 2017-04-17 [expires: 2017-04-18]
+    uid                          devinmatte
+    ssb   4096R/42B317FD4BA89E7A 2017-04-17
+    ```
+
 2. Set git to use that key `git config --global user.signingkey 3AA5C34371567BD2`
 
-Now you're set up to start signing commits. The way you'd do that is with `git commit -S`. However you really should want to sign *all* your commits. So it's quite obvious that your work is yours.
+    Now you're set up to start signing commits. The way you'd do that is with `git commit -S`. However you really should want to sign *all* your commits. So it's quite obvious that your work is yours.
 
 3. Set the default status on git:
     - `git config --global commit.gpgsign true` sets **All Commits** inside **All Repositories** on your machine to default as signed.
     - `git config commit.gpgsign true` sets **All Commits** inside a single repository on your machine to default as signed.
+    
+    Now when you first set this up you may experience the annoyance of typing in your password every time you make a commit. This can be annoying. You'll also notice that it breaks commit functionality in other programs such as Jetbrains IDEs. So I looked around and found a simple solution
 
-Now when you first set this up you may experience the annoyance of typing in your password every time you make a commit. This can be annoying. You'll also notice that it breaks commit functionality in other programs such as Jetbrains IDEs. So I looked around and found a simple solution
 4. Edit `~/.gnupg/gpg.conf` and add these two lines to the bottom:
 
-```
-no-tty
-use-agent
-```
-
-Now your password will be saved, and third party software will be able to commit like normal. Except now, all your commits are signed!
+    ```
+    no-tty
+    use-agent
+    ```
+    
+    Now your password will be saved, and third party software will be able to commit like normal. Except now, all your commits are signed!
 
 Verifying Commits Online
 ------------------------

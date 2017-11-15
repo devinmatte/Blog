@@ -22,6 +22,7 @@ In order to set up the installation you need a few things. First we need to dete
 
 Windows
 -------
+
 ### 1. Install Atom
 First we're going to need to grab Atom from [atom.io](https://atom.io/)
 
@@ -42,6 +43,7 @@ Launch Atom and configure it to your liking then:
 
 Linux
 -----
+
 ### 1. Install Atom
 First we're going to need to grab Atom from [atom.io](https://atom.io/)
 
@@ -90,6 +92,7 @@ All Math uses LaTeX math equations, there are plenty of online resources to look
 
 #### Writing Block Equations
 When writing block math, put two dollar signs `$$` at a line above and below the equation
+
 ```
 $$
 x^2 - \sqrt{7} \times \pi
@@ -98,6 +101,7 @@ $$
 
 #### Writing Inline Equations
 When writing inline, simply put a single `$` on each end of the equation.
+
 ```
 $x^2 - \sqrt{7} \times \pi$
 ```

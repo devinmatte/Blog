@@ -79,6 +79,7 @@ Well some of those reasons are valid, but other's are not you should put as much
 You can easily push an existing git project to GitHub. GitHub is nothing more, at a base level, than a location to host remotes. They just happen to then provide a large series of features of top of the existing git repository. Because of this, you can add any, and all, existing git repositories to GitHub, at no cost to you (until you're no longer a Student and need private repositories still).
 
 Simply make an empty repository on GitHub then run in your current project locally:
+
 ```
 # Add a Remote
 git remote add origin https://github.com/<username>/<repository>

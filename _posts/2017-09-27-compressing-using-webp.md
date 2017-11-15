@@ -33,16 +33,17 @@ Install on Unix
 
 1. First grab the files you'll need for install from [here](https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html). Get the newest `tar.gz`
 2. Follow the instructions [here](https://developers.google.com/speed/webp/docs/compiling#unix) to install on unix.
+
 ```
 tar xvzf libwebp-0.6.0.tar.gz
 ```
+
 ```
 cd libwebp-0.6.0
 ./configure
 make
 sudo make install
 ```
-3. Start using it!
 
 
 Use Webp
