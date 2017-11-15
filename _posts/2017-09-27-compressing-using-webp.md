@@ -4,7 +4,7 @@ title:  Compressing with WebP
 subtitle: Using WebP to improve performance
 description: WebP can be used to compress files losslessly for better site performance
 date:   2017-09-27 22:05:00
-categories: webp
+categories: tutorial post
 featured-image: https://blog.devinmatte.com/images/posts/2017-09-27-before.png
 thumbnail-image: https://blog.devinmatte.com/images/posts/2017-09-27-before.png
 comments: true

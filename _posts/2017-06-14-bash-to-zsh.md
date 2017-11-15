@@ -4,7 +4,7 @@ title:  Bash ain't all That
 subtitle: Switching from Bash to Zsh
 description: Why I decided to switch from bash to zsh and why you should too
 date:   2017-06-14 15:15:00
-categories: bash zsh
+categories: post
 featured-image: https://blog.devinmatte.com/images/posts/2017-06-14-options.png
 thumbnail-image: https://blog.devinmatte.com/images/posts/2017-06-14-options.png
 comments: true
@@ -20,6 +20,8 @@ The main difference between zsh and bash is the auto-complete when typing in a p
 ![Options](https://blog.devinmatte.com/images/posts/2017-06-14-options.png)
 
 The main difference I've noticed between zsh and bash is speed. When working on a machine with zsh as my shell, I feel much more productive than when I need to default to bash.
+
+Along with directory selection with zsh, I've also fallen in love with searching history. Let's say you typed out a long command a few days ago, and all you remember is that it started with `git`. Well instead of hitting the up arrow 1000 times until you find it, type out `git` and then start hitting up. Now it'll only return results that also start with `git` throughout your history.
 
 However one of the biggest appeals of zsh, is it's extensive customizablity. For me I use [oh-my-zsh](http://ohmyz.sh/) with the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme.
 

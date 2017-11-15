@@ -4,7 +4,7 @@ title:  Intro to GitHub
 subtitle: Introducing new Students to GitHub
 description: GitHub is an incredible tool, not only for development, but for learning
 date:   2017-10-26 15:55:00
-categories: git GitHub
+categories: tutorial
 featured-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile.png
 thumbnail-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile.png
 comments: true

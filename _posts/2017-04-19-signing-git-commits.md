@@ -4,7 +4,7 @@ title:  Signing Git Commits
 subtitle: Signing your commits in Git
 description: I recently discovered an interesting thing you can do with git commits. Signing individual commits.
 date:   2017-04-19 14:15:00
-categories: git
+categories: tutorial
 featured-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits.jpg
 thumbnail-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits2.jpg
 comments: true
