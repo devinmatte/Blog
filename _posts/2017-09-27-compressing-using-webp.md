@@ -65,4 +65,4 @@ Because of that you need to build in some fallback
 
 With this implemented instead of your old simple `<img>` tag, it'll load the smallest available file. You can check in chrome if it's working by looking at the `Network` tab, or by running another audit and seeing the new score for `Serve images as WebP`
 
-If you want to read me, there's a great article [here](https://css-tricks.com/using-webp-images/)
+If you want to read more, there's a great article [here](https://css-tricks.com/using-webp-images/)
