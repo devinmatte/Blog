@@ -36,6 +36,11 @@ One of my biggest complaints when I switched from Windows to Linux, was the lack
 
 ![Dash to Dock in Gnome](https://blog.devinmatte.com/images/posts/my-linux-config/gnome-tasks.png)
 
+### Numix Icons
+One of the best things I discovered was Numix Icons for Linux. This allowed for me to be able to skin every default app, and most if not all installed apps with a consistent themed icon pack. With these skinned icons using the OS feels like a very unified system, where it looks and feels like each and every app was designed specifically with this system in mind.
+
+![Numix Icons in Gnome](https://blog.devinmatte.com/images/posts/my-linux-config/icons.png)
+
 ## Setup
 
 Now I've had to reinstall my distro a few times over the last year with a series of hardware issues on my last laptop. So because of that I got really used to making scripts and aliases for setting up my machines. I have a self deleting script that I can easily run to setup a machine ready to be used.
