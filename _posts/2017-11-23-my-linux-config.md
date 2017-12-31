@@ -51,8 +51,8 @@ Now I've had to reinstall my distro a few times over the last year with a series
 ### Grab all debian packages for common programs ###
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.0-amd64.deb
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-wget https://dl.discordapp.net/apps/linux/0.0.2/discord-0.0.2.deb
-wget https://atom-installer.github.com/v1.16.0/atom-amd64.deb
+wget https://dl.discordapp.net/apps/linux/0.0.3/discord-0.0.3.deb
+wget https://atom-installer.github.com/v1.23.1/atom-amd64.deb
 
 ### Install all deb packages ###
 sudo dpkg -i *.deb
@@ -81,6 +81,11 @@ sudo apt-get install -y google-chrome-stable vim pandoc git python3-pip php numi
 ### Installing Oh-My-Zsh ###
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+### Installing Zsh plugins ###
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+git clone https://github.com/devinmatte/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
 ### Switch to zsh as shell ###
 chsh -s $(which zsh)
 
@@ -100,9 +105,13 @@ I also have gotten used to having cronjobs to help make my life easier. I have o
 #!/bin/bash
 
 ### Update Everything ###
-shopt -s expand_aliases
-source /home/devinmatte/.aliases
-updateall
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get autoremove -y
+sudo apt-get clean -y
+sudo apt-get autoclean -y
+sudo apt-get install -f -y
 
 ### Clean out old logs ###
 sudo rm /var/log/*.log.*
@@ -113,7 +122,7 @@ sudo rm /var/log/*/*.log.*
 sudo rm /var/log/*/*.*.gz
 ```
 
-It also imports my aliases, which many of which I wrote back when I first set up linux. One of which is `updateall`, which was just my convenient update, upgrade, and cleanup command to make sure I'm up to date.
+I also have a series of aliases set up, many of which are a little old and rarely used, but figured some may help new users.
 
 ```bash
 #########################################
@@ -150,3 +159,5 @@ alias nwrst='sudo -S service network-manager restart'
 Once I get into using my distro, I have a few tools and utilities to make my life easier. I've [talked in the past](https://devinmatte.me/post/2017/06/14/bash-to-zsh/) about how I use [Zsh](http://www.zsh.org/) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) to make my shell better overall. I use the agnoster theme with all of the convenient features that come with it. That includes git support, context highlighting and action icons.
 
 ![Example of Zsh](https://blog.devinmatte.com/images/posts/2017-06-14-theme.png)
+
+I've recently added even more to this arsenal by discovering zsh plugins, one of which is syntax highlighting and the other is auto suggestions when you start to write out a command.
