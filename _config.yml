@@ -13,7 +13,7 @@ google_verification: dp-IySBoAuap8dvxEM4kQND6f_DV7BW5-g5a-bNM2bw
 
 # Optional features
 animated:             false
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
@@ -45,7 +45,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
