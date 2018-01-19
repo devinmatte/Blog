@@ -17,7 +17,8 @@ I've been using Linux exclusively as my daily driver for about a year now. With 
 
 ## Distro
 
-First it starts with my distro. I personally like to use [Ubuntu Gnome](https://ubuntugnome.org/), currently using the [17.04](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME) version. I like ubuntu because of how easy the transition to ubuntu from windows is compared to redhat distros or otherwise. I especially like it because of the heavy amount of support for debian distros across the board with `.deb` files. Sure `tarball`s work on every machine, but theres often more work involved than necessary.
+First it starts with my distro. I personally like to use [Ubuntu Gnome](https://ubuntugnome.org/), currently using the [17.10](https://www.ubuntu.com/desktop/1710) version. I like ubuntu because of how easy the transition to ubuntu from windows is compared to redhat distros or otherwise. I especially like it because of the heavy amount of support for debian distros across the board with `.deb` files. Sure `tarball`s work on every machine, but theres often more work involved than necessary.
+Now recently [17.04](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME) hit end-of-life and I had to make the upgrade to [17.10](https://www.ubuntu.com/desktop/1710). With that upgrade instead of installing 17.10 straight, I did a `do-release-upgrade` from Ubuntu Gnome [17.04](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME) and dealt with the weird transitions that occurred. I had to do that because with the update to using gnome by default in [17.10](https://www.ubuntu.com/desktop/1710), [Ubuntu Gnome](https://ubuntugnome.org/) is no longer supported.
 
 ## Design
 
