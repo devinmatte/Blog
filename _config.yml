@@ -6,7 +6,7 @@ description: "Devin Matte's Blog for posting about everything I'm learning about
 baseurl: ""
 url: "https://devinmatte.me"
 date_format: "%b %-d, %Y"
-default-image: "/images/me.jpg"
+default-image: "/images/devinmatte.jpg"
 
 # Google services
 google_analytics: UA-90401650-1
