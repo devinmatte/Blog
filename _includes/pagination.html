@@ -6,15 +6,11 @@
       {% else %}
         <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">{{ site.text.pagination.newer }}</a>
       {% endif %}
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
     {% endif %}
   </div>
   <div class="right">
     {% if paginator.next_page %}
       <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.next_page}}/">{{ site.text.pagination.older }}</a>
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
     {% endif %}
   </div>
 </div>
