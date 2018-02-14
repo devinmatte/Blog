@@ -9,7 +9,7 @@ featured-image: https://blog.devinmatte.com/images/posts/2017-04-18-building-a-p
 thumbnail-image: https://blog.devinmatte.com/images/posts/2017-04-18-building-a-personal-blog-portfolio.jpg
 comments: true
 author: Devin Matte
-author-image: https://avatars3.githubusercontent.com/u/9310513
+author-image: /images/devinmatte.jpg
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 

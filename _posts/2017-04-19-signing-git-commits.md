@@ -9,7 +9,7 @@ featured-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-
 thumbnail-image: https://blog.devinmatte.com/images/posts/2017-04-19-signing-git-commits2.jpg
 comments: true
 author: Devin Matte
-author-image: https://avatars3.githubusercontent.com/u/9310513
+author-image: /images/devinmatte.jpg
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 

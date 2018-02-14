@@ -9,7 +9,7 @@ featured-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile
 thumbnail-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile.png
 comments: true
 author: Devin Matte
-author-image: https://avatars3.githubusercontent.com/u/9310513
+author-image: /images/devinmatte.jpg
 author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
 ---
 
