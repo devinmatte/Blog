@@ -5,8 +5,8 @@ subtitle: I wanted to make Git Commits Competitive
 description: I wanted to make Git Commits Competitive, so here's Git-Challenge.
 date:   2017-04-15 20:10:00
 categories: post
-featured-image: https://blog.devinmatte.com/images/posts/2017-04-15-making-Git-Challenge.jpg
-thumbnail-image: https://blog.devinmatte.com/images/posts/2017-04-15-making-Git-Challenge2.jpg
+featured-image: /images/posts/2017-04-15-making-Git-Challenge.jpg
+thumbnail-image: /images/posts/2017-04-15-making-Git-Challenge2.jpg
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg

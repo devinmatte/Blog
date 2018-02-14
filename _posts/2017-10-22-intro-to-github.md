@@ -5,8 +5,8 @@ subtitle: Introducing new Students to GitHub
 description: GitHub is an incredible tool, not only for development, but for learning
 date:   2017-10-26 15:55:00
 categories: tutorial
-featured-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile.png
-thumbnail-image: https://blog.devinmatte.com/images/posts/intro-to-github/profile.png
+featured-image: /images/posts/intro-to-github/profile.png
+thumbnail-image: /images/posts/intro-to-github/profile.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
@@ -26,7 +26,7 @@ When signing up for [GitHub](https://github.com), your username is important. Fo
 
 When recruiters/potential employers go to look for you online, you want them to be able to find your [GitHub](https://github.com). You're also likely going to be listing it on your resume. The same way you don't want your email to be sadpanda69@yahoo.com on your resume, https://github.com/sadpanda69 is just as bad. Pick a username that is easy to remember, and easy to match to you. For example, mine is: [`devinmatte`](https://github.com/devinmatte). How easy is that?
 
-![Sign Up View](https://blog.devinmatte.com/images/posts/intro-to-github/sign-up.png)
+![Sign Up View](/images/posts/intro-to-github/sign-up.png)
 
 ## GitHub Student
 **If you're not a student at a College/University Skip this section.**
@@ -49,18 +49,18 @@ Your Profile is also really important in the grand scheme of [GitHub](https://gi
     - If you have one
         - If you don't you should make one
 
-![My Profile](https://blog.devinmatte.com/images/posts/intro-to-github/profile.png)
+![My Profile](/images/posts/intro-to-github/profile.png)
 
 Those aspects make for a good profile. It's clean, it's complete, and it shows attention to detail when people look at it.
 
 ## Pinned Repositories
 Think about pinned Repositories as your best work. The top 6 things you'd want to show off to a recruiter. If you were to list projects on your resume, if you'd list them there, pin them here.
 
-![My Pinned Repositories](https://blog.devinmatte.com/images/posts/intro-to-github/pinned.png)
+![My Pinned Repositories](/images/posts/intro-to-github/pinned.png)
 
 You can pin any project that you've worked on, not just projects that you own. Have you made a bunch of commits to someone else's project? You can list that one, why not? You've worked on it haven't you?
 
-![Pinning Repositories](https://blog.devinmatte.com/images/posts/intro-to-github/pinned2.png)
+![Pinning Repositories](/images/posts/intro-to-github/pinned2.png)
 
 # Adding Projects
 [GitHub](https://github.com) is a great place to start when creating a new project. The first thing you do is make a repository, and you're off to the races. However often you have existing projects sitting around that are not yet on GitHub. Well, what are you waiting for?
@@ -101,7 +101,7 @@ git push -u origin master
 
 If you ever forget these commands, or steps, GitHub will walk you through it themselves
 
-![Help you out](https://blog.devinmatte.com/images/posts/intro-to-github/help.png)
+![Help you out](/images/posts/intro-to-github/help.png)
 
 ### "My Code isn't good enough"
 
@@ -114,7 +114,7 @@ GitHub has these wonderful features embedded into repositories called Issues and
 Issues are [GitHub](https://github.com)'s version of dealing with bug tracking, feature requests, user questions, and everything in-between. Any GitHub user can create an issue on any repository that they have access to. You could right this very moment, go to any public repository, and submit any issue you'd want.
 Issues are great for developers, because it allows for their users to submit bugs, in the same place that they track new feature requests, and track their plans.
 
-![Issues](https://blog.devinmatte.com/images/posts/intro-to-github/issues.png)
+![Issues](/images/posts/intro-to-github/issues.png)
 
 Issues are all given a number per repository. From \#1 onward. Issues can become very detailed, which allows for a lot of information be held inside of one. An issue is comprised of a large series of parts.
 
@@ -131,7 +131,7 @@ These parts together make for some very useful items that can store a lot of det
 
 An example of a good issue would be:
 
-[![Good Issue](https://blog.devinmatte.com/images/posts/intro-to-github/good-issue.png)](https://github.com/ComputerScienceHouse/CSHPublicSite/issues/163)
+[![Good Issue](/images/posts/intro-to-github/good-issue.png)](https://github.com/ComputerScienceHouse/CSHPublicSite/issues/163)
 
 - Markdown is used
 - Images are included
@@ -141,20 +141,20 @@ An example of a good issue would be:
 ## Projects
 Projects are one of the newest features to [GitHub](https://github.com) repositories, and often considered to the least used. However often there are cases where Projects make a lot of sense to use. What projects are is an agile board, inside of your repository, that uses issues as your cards. Now this can be useful in the sense that all issues submitted, can be dragged directly onto an agile board, and dropped right into the work-flow for the project.
 
-![Project Board Example](https://blog.devinmatte.com/images/posts/intro-to-github/projects.png)
+![Project Board Example](/images/posts/intro-to-github/projects.png)
 
 Projects is GitHub's solution to [Jira](https://www.atlassian.com/software/jira) and [Trello](https://trello.com/) in the marketplace. Agile boards aren't that complex, so they simply made one in GitHub, that uses issues and pull requests as the cards.
 
-![Bootstrap Project Board Example](https://blog.devinmatte.com/images/posts/intro-to-github/exampleProject.png)
+![Bootstrap Project Board Example](/images/posts/intro-to-github/exampleProject.png)
 
 # Releases
 Releases are a great way to help save states and versions of a project. You can tag a point in time and pull, clone, go back to and even attach binaries to a version.
 
-![A single Release](https://blog.devinmatte.com/images/posts/intro-to-github/release.png)
+![A single Release](/images/posts/intro-to-github/release.png)
 
 Version tagging is important. GitHub recommends that you use semantic versioning `v1.0.0-beta`. This allows for you to keep track of a project like a proper piece of software.
 
-![Tagged Versions](https://blog.devinmatte.com/images/posts/intro-to-github/tags.png)
+![Tagged Versions](/images/posts/intro-to-github/tags.png)
 
 # Forks and Pull Requests
 GitHub is great mostly because of Forks and Pull Requests and the advantages that come with them. Because of Forks and Pull Requests the open source community has thrived on GitHub, and has even developed some modern agile practices across the field.
@@ -165,23 +165,23 @@ Forks are best described as a copy of a repository, that can be treated like exp
 > A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
-![Fork Graph](https://blog.devinmatte.com/images/posts/intro-to-github/graph.png)
+![Fork Graph](/images/posts/intro-to-github/graph.png)
 
 At a base level, a fork is a copy of a repository, with a reference to the master copy so that you may compare changes against it. Forks are a huge deal for GitHub. For a series of reason, first being that all forks, display and point to the original giving proper credit to where credit is due. The second being, that you can use Forks to compare changes to the master repository in a Pull Request.
 
-![Example Fork](https://blog.devinmatte.com/images/posts/intro-to-github/exampleFork.png)
+![Example Fork](/images/posts/intro-to-github/exampleFork.png)
 
 ## Pull Requests
 Oh Boy! The big boys! Pull Requests are the biggest, coolest, most useful, thing about GitHub (in my opinion). Pull requests are a lot of things, but we should take it one step at a time.
 
-![Pull Requests](https://blog.devinmatte.com/images/posts/intro-to-github/pullrequests.png)
+![Pull Requests](/images/posts/intro-to-github/pullrequests.png)
 
 A pull request is used to compare changes between branches and forks of a repository. If a pull request is made from one branch/fork to another, it looks to see how many new changes have been made, and then displays those changes with a diff, and list of new commits.
 
-![Pull Request Diff](https://blog.devinmatte.com/images/posts/intro-to-github/exampleDiff.png)
+![Pull Request Diff](/images/posts/intro-to-github/exampleDiff.png)
 
 Pull requests are made to merge to branches through some form of approval process. When a pull request is made, in order for anything to happen, someone with write access to the repository needs to merge it. Sometimes repositories but restrictions even further. Like requiring someone to approve the changes, or by requiring the pull request to pass a series of tests.
 
-![Pull Request Checks](https://blog.devinmatte.com/images/posts/intro-to-github/approved.png)
+![Pull Request Checks](/images/posts/intro-to-github/approved.png)
 
 If you're more interested on the Fork/Pull Request work-flow, there's a decent [gist](https://gist.github.com/Chaser324/ce0505fbed06b947d962) available on the topic

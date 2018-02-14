@@ -5,8 +5,8 @@ subtitle: How my linux is set up on my personal machines
 description: Learn about how I set up my Linux environment
 date:   2017-11-23 15:12:44
 categories: post
-featured-image: https://blog.devinmatte.com/images/posts/my-linux-config/gnome-tasks.png
-thumbnail-image: https://blog.devinmatte.com/images/posts/my-linux-config/gnome-tasks.png
+featured-image: /images/posts/my-linux-config/gnome-tasks.png
+thumbnail-image: /images/posts/my-linux-config/gnome-tasks.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
@@ -27,7 +27,7 @@ I like how customizable linux can be. I have seen so many different peoples layo
 
 ### Nautilus and Windows
 
-![File Manager Icons and Theme](https://blog.devinmatte.com/images/posts/my-linux-config/file-manager.png)
+![File Manager Icons and Theme](/images/posts/my-linux-config/file-manager.png)
 
 Files and the file manager look pretty fantastic with the Arc-Theme, but when paired with Numix Icons it looks even better. I use the Arc-Darker version of the Arc theme, but if full light or full dark themes are your cup of tea, those are very much available.
 
@@ -35,12 +35,12 @@ Files and the file manager look pretty fantastic with the Arc-Theme, but when pa
 
 One of my biggest complaints when I switched from Windows to Linux, was the lack of a taskbar. I hated having to press `super` in order to get to my open programs. And I don't often use `alt`+`tab` so I was in need of a taskbar. Dash to Dock was the perfect solution, especially given its customizability.
 
-![Dash to Dock in Gnome](https://blog.devinmatte.com/images/posts/my-linux-config/gnome-tasks.png)
+![Dash to Dock in Gnome](/images/posts/my-linux-config/gnome-tasks.png)
 
 ### Numix Icons
 One of the best things I discovered was Numix Icons for Linux. This allowed for me to be able to skin every default app, and most if not all installed apps with a consistent themed icon pack. With these skinned icons using the OS feels like a very unified system, where it looks and feels like each and every app was designed specifically with this system in mind.
 
-![Numix Icons in Gnome](https://blog.devinmatte.com/images/posts/my-linux-config/icons.png)
+![Numix Icons in Gnome](/images/posts/my-linux-config/icons.png)
 
 ## Setup
 
@@ -159,6 +159,6 @@ alias nwrst='sudo -S service network-manager restart'
 
 Once I get into using my distro, I have a few tools and utilities to make my life easier. I've [talked in the past](https://devinmatte.me/post/2017/06/14/bash-to-zsh/) about how I use [Zsh](http://www.zsh.org/) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) to make my shell better overall. I use the agnoster theme with all of the convenient features that come with it. That includes git support, context highlighting and action icons.
 
-![Example of Zsh](https://blog.devinmatte.com/images/posts/2017-06-14-theme.png)
+![Example of Zsh](/images/posts/2017-06-14-theme.png)
 
 I've recently added even more to this arsenal by discovering zsh plugins, one of which is syntax highlighting and the other is auto suggestions when you start to write out a command.

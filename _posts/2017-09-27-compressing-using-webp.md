@@ -5,8 +5,8 @@ subtitle: Using WebP to improve performance
 description: WebP can be used to compress files losslessly for better site performance
 date:   2017-09-27 22:05:00
 categories: tutorial post
-featured-image: https://blog.devinmatte.com/images/posts/2017-09-27-before.png
-thumbnail-image: https://blog.devinmatte.com/images/posts/2017-09-27-before.png
+featured-image: /images/posts/2017-09-27-before.png
+thumbnail-image: /images/posts/2017-09-27-before.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
@@ -22,7 +22,7 @@ You know what it's like when you visit a page and the page loads, before the ima
 That's not really ideal. 
 The faster your page loads, the better for your users, which in turn is better for your page views.
 
-![Before WebP](https://blog.devinmatte.com/images/posts/2017-09-27-before.png)
+![Before WebP](/images/posts/2017-09-27-before.png)
 
 When you run the chrome audit, one of the recommendations to improve performance is to [use `webp`](https://developers.google.com/web/tools/lighthouse/audits/webp). 
 I was ignoring that advice for a while for a lack of understanding, due to google's poor documentation of how to set it up.
