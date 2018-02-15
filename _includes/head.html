@@ -27,9 +27,7 @@
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
-    {% if site.show_social_icons or site.show_sharing_icons %}
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    {% endif %}
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- MathJax -->
     {% if site.enable_mathjax %}
@@ -63,7 +61,7 @@
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
     <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}"/>
     <meta property="og:image:secure_url" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}" />
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/accordion.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/button.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/transition.min.css">
