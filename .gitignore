@@ -6,3 +6,4 @@ blog/_site
 _config.gh-pages.yml
 .idea
 .idea/*
+_site
