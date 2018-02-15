@@ -55,17 +55,18 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
-    <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}https://avatars3.githubusercontent.com/u/9310513{% endif %}"/>
-    <meta property="og:image:secure_url" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}https://avatars3.githubusercontent.com/u/9310513{% endif %}" />
+    <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}"/>
+    <meta property="og:image:secure_url" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     {% if site.twitter_username %}
         <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     {% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/accordion.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/button.min.css">
