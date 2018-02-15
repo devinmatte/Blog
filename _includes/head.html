@@ -47,6 +47,12 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    {% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    {% endif %}
+
     <!-- Open Graph -->
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
@@ -57,16 +63,6 @@
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
     <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}"/>
     <meta property="og:image:secure_url" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    {% if site.twitter_username %}
-        <meta name="twitter:site" content="@{{ site.twitter_username }}" />
-    {% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-    <meta name="twitter:image" content="{% if page.featured-image %}{{ page.featured-image }}{% else %}/images/devinmatte.jpg{% endif %}">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/accordion.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/button.min.css">
