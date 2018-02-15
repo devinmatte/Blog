@@ -8,10 +8,11 @@ module.exports = function (grunt) {
                     removeComments: true,
                     collapseWhitespace: true
                 },
-                files: {                                   // Dictionary of files
-                    '_site/index.html': '_site/index.html',    // 'destination': 'source'
-                    '_site/404.html': '_site/404.html'
-                }
+                files: [{
+                    expand: true,
+                    src: './_site/**/*.html',
+                    ext: '.html'
+                }]
             }
         },
         cssmin: {
