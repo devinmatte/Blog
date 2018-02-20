@@ -147,6 +147,11 @@ Projects is GitHub's solution to [Jira](https://www.atlassian.com/software/jira)
 
 ![Bootstrap Project Board Example](/images/posts/intro-to-github/exampleProject.png)
 
+### Automation
+Recently GitHub added automation to GitHub projects. This allows for agile board to automatically be updated based on actions on given Pull Requests or Issues. This makes them significantly more useful. There are actions for To do, In progress, and Done.
+
+![GitHub Project Automation](/images/posts/intro-to-github/automation.png)
+
 # Releases
 Releases are a great way to help save states and versions of a project. You can tag a point in time and pull, clone, go back to and even attach binaries to a version.
 
