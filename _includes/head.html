@@ -5,7 +5,7 @@
 
     <title>Devin Matte | Blog {% if page.title %} - {{ page.title }} {% endif %}</title>
 
-    <meta name="theme-color" content="#6e76e5">
+    <meta name="theme-color" content="#6e83e5">
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
@@ -17,11 +17,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | prepend: site.baseurl }}">
 
-    <meta name="msapplication-TileColor" content="#6e76e5">
+    <meta name="msapplication-TileColor" content="#6e83e5">
     <meta name="msapplication-TileImage" content="{{ '/mstile-144x144.png' | prepend: site.baseurl }}">
     <meta name="msapplication-config" content="{{ '/browserconfig.xml' | prepend: site.baseurl }}">
 
-    <link rel="mask-icon" href="{{ '/images/logo.svg' | prepend: site.baseurl }}" color="#6e76e5">
+    <link rel="mask-icon" href="{{ '/images/logo.svg' | prepend: site.baseurl }}" color="#6e83e5">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />

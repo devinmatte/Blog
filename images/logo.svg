@@ -44,12 +44,12 @@
      id="namedview871"
      showgrid="false"
      inkscape:zoom="0.96467592"
-     inkscape:cx="365.62575"
+     inkscape:cx="189.40076"
      inkscape:cy="354.09281"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4842"
+     inkscape:current-layer="text881"
      showguides="true">
     <inkscape:grid
        type="xygrid"
@@ -65,11 +65,11 @@
        id="text881">
       <path
          d="M 253.44293,325.46364 85.485168,165.2817 253.44293,5.0997662 H 179.57262 L 11.614857,165.2817 179.57262,325.46364 Z"
-         style="fill:#515be0;fill-opacity:1"
+         style="fill:#5168e0;fill-opacity:1"
          id="path840" />
       <path
          d="M 763.46395,165.2817 595.50619,5.0997662 H 521.63588 L 689.59364,165.2817 521.63588,325.46364 h 73.87031 z"
-         style="fill:#424ede;fill-opacity:1"
+         style="fill:#425bde;fill-opacity:1"
          id="path842" />
     </g>
     <g
@@ -79,15 +79,15 @@
          transform="matrix(1.4062571,0,0,1.4062571,-111.41916,-158.55217)"
          id="g1064">
         <polygon
-           style="fill:#515be0"
+           style="fill:#5168e0;fill-opacity:1"
            points="246.975,181.664 217.964,181.664 176.626,447.607 246.975,493.95 "
            id="polygon980" />
         <polygon
-           style="fill:#424ede"
+           style="fill:#425bde;fill-opacity:1"
            points="246.975,181.664 246.975,493.95 317.324,447.607 275.986,181.664 "
            id="polygon982" />
         <polygon
-           style="fill:#6e76e5"
+           style="fill:#6e83e5;fill-opacity:1"
            points="191.444,120.206 217.964,181.664 275.986,181.664 302.506,120.206 275.986,79.252 217.964,79.252 "
            id="polygon984" />
       </g>
