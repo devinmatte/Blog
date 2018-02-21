@@ -49,7 +49,7 @@ module.exports = function (grunt) {
                         },
                         desktopBrowser: {},
                         windows: {
-                            pictureAspect: 'noChange',
+                            pictureAspect: 'whiteSilhouette',
                             backgroundColor: '#333333',
                             onConflict: 'override',
                             assets: {
