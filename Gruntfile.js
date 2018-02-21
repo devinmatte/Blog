@@ -28,12 +28,75 @@ module.exports = function (grunt) {
                     ext: '.css'
                 }]
             }
+        },
+        realFavicon: {
+            favicons: {
+                src: './images/logo.svg',
+                dest: './_site',
+                options: {
+                    iconsPath: './_site',
+                    design: {
+                        ios: {
+                            pictureAspect: 'backgroundAndMargin',
+                            backgroundColor: '#ffffff',
+                            margin: '14%',
+                            assets: {
+                                ios6AndPriorIcons: false,
+                                ios7AndLaterIcons: false,
+                                precomposedIcons: false,
+                                declareOnlyDefaultIcon: true
+                            }
+                        },
+                        desktopBrowser: {},
+                        windows: {
+                            pictureAspect: 'noChange',
+                            backgroundColor: '#333333',
+                            onConflict: 'override',
+                            assets: {
+                                windows80Ie10Tile: false,
+                                windows10Ie11EdgeTiles: {
+                                    small: true,
+                                    medium: true,
+                                    big: true,
+                                    rectangle: true
+                                }
+                            }
+                        },
+                        androidChrome: {
+                            pictureAspect: 'noChange',
+                            themeColor: '#333333',
+                            manifest: {
+                                display: 'standalone',
+                                orientation: 'notSet',
+                                onConflict: 'override',
+                                declared: true
+                            },
+                            assets: {
+                                legacyIcon: true,
+                                lowResolutionIcons: false
+                            }
+                        },
+                        safariPinnedTab: {
+                            pictureAspect: 'silhouette',
+                            themeColor: '#333333'
+                        }
+                    },
+                    settings: {
+                        scalingAlgorithm: 'Mitchell',
+                        errorOnImageTooSmall: false,
+                        readmeFile: false,
+                        htmlCodeFile: false,
+                        usePathAsIs: false
+                    }
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-real-favicon');
 
-    grunt.registerTask('default', ['htmlmin', 'cssmin']);
+    grunt.registerTask('default', ['htmlmin', 'cssmin', 'realFavicon']);
 
 };

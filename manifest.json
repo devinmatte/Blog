@@ -8,40 +8,15 @@
   "lang": "en-US",
   "orientation": "portrait",
   "icons": [
-    	{
-            "sizes": "16x16",
-            "src": "images/logo16.png",
-            "type": "img/png"
-        },
-	{
-            "sizes": "32x32",
-            "src": "images/logo32.png",
-            "type": "img/png"
-        },
-	{
-            "sizes": "48x48",
-            "src": "images/logo48.png",
-	    "type": "img/png"
-        },
-        {
-            "sizes": "64x64",
-            "src": "images/logo64.png",
-            "type": "img/png"
-        },
-        {
-            "sizes": "128x128",
-            "src": "images/logo128.png",
-            "type": "img/png"
-        },
-        {
-            "sizes": "256x256",
-            "src": "images/logo256.png",
-            "type": "img/png"
-        },
-        {
-            "sizes": "512x512",
-            "src": "images/logo512.png",
-            "type": "img/png"
-        }
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
