@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                 src: './images/logo.svg',
                 dest: './_site',
                 options: {
-                    iconsPath: './_site',
+                    iconsPath: './',
                     design: {
                         ios: {
                             pictureAspect: 'backgroundAndMargin',
