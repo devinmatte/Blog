@@ -5,15 +5,16 @@
 
     <title>Devin Matte | Blog {% if page.title %} - {{ page.title }} {% endif %}</title>
 
-    <meta name="theme-color" content="#333">
+    <meta name="theme-color" content="#333333">
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
 
     <!-- Icons -->
     <link rel="icon" type="image/png" sizes="512x512" href="{{ '/images/logo512.png' | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" sizes="256x256" href="{{ '/images/logo256.png' | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="128x128" href="{{ '/images/logo128.png' | prepend: site.baseurl }}">
-    <link rel="mask-icon" href="{{ '/images/logo.svg' | prepend: site.baseurl }}" color="grey">
+    <link rel="mask-icon" href="{{ '/images/logo.svg' | prepend: site.baseurl }}" color="#333333">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
