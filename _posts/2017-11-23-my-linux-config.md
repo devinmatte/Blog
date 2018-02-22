@@ -6,7 +6,7 @@ description: Learn about how I set up my Linux environment
 date:   2017-11-23 15:12:44
 categories: post
 featured-image: /images/posts/my-linux-config/gnome-tasks.png
-thumbnail-image: /images/posts/my-linux-config/gnome-tasks.png
+thumbnail-image: /images/posts/my-linux-config/gnome-thumb.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
