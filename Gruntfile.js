@@ -90,13 +90,19 @@ module.exports = function (grunt) {
                     }
                 }
             }
+        },
+        clean: {
+            favicons: {
+                src: ['_site/safari-pinned-tab.svg', '_site/site.webmanifest']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-real-favicon');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('default', ['htmlmin', 'cssmin', 'realFavicon']);
+    grunt.registerTask('default', ['htmlmin', 'cssmin', 'realFavicon', 'clean']);
 
 };
