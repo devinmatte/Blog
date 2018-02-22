@@ -31,7 +31,7 @@ When recruiters/potential employers go to look for you online, you want them to 
 ## GitHub Student
 **If you're not a student at a College/University Skip this section.**
 
-![](https://hackhands.com/data/blogs/ClosedSource/hackhands-github-student-developer-pack/assets/github.png)
+![Education Pack](/images/posts/intro-to-github/education-pack.png)
 
 GitHub provides a wonderful service for students, where they work with all kinda of development platforms to put together a package of useful tools to help new student developers learn how to break into the industry. Through providing everything from GitHub Developer (unlimited private repositories) to $50 of [DigitalOcean](https://www.digitalocean.com/) credit.
 
