@@ -167,9 +167,9 @@ def root():
 <ul>
 <li>I recommend using an IDE for all Java Development</li>
 <ul>
-<li>I also recommend using Intellij</li>
+<li>I also recommend using <a href="https://www.jetbrains.com/idea/">Intellij</a></li>
 </ul>
-<li>Add <code>build.gradle</code> and <code>pom.xml</code> to the gradle/maven portions of your IDE</li>
+<li>Add <code>build.gradle</code> and <code>pom.xml</code> to the <a href="https://gradle.org/">gradle</a>/<a href="https://maven.apache.org/">maven</a> portions of your IDE</li>
 <li>Make sure to mark <code>src</code> as the sources directory</li>
 <li>Run <code>Application.java</code> to run/test your application
 </ul>
