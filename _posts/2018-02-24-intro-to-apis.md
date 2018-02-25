@@ -73,7 +73,7 @@ You're already likely familiar with the fact that `google.com/` is the route to 
 It's what's loaded when you go to either `google.com` or `google.com/`.
 
 ### Routes
-`\search` is the route that exists in the path `google.com/search`.
+`/search` is the route that exists in the path `google.com/search`.
 When you write routes, there is no limit to the path, `/this/is/a/long/path/which/is/valid`.
 You should however, try and keep your routes short and simple.
 Routes should be easily understood, and generally memorable so that people are able to type it in, or understand what information will be provided simply from the URL.
