@@ -61,6 +61,8 @@ When working with a RESTful HTTP API, there are 4 basic methods that you should 
 - **PUT** — create a new resource
 - **DELETE** — remove a specific resource by id
 
+_Some people swap **POST** and **PUT**. There is a [large discussion on Stackoverflow](https://stackoverflow.com/questions/630453/put-vs-post-in-rest) that talks about the reasons to use each_.
+
 ## Paths
 
 First thing we should go over, is how to structure an API. 
@@ -439,3 +441,14 @@ Often APIs are stateless, meaning that they get the data from somewhere. You are
 </div>
 
 </div>
+
+## Continue Learning
+
+If you want to learn more about APIs or any of these frameworks, there are plenty of good resources available.
+
+
+### Frameworks
+- [Flask](http://flask.pocoo.org/)
+- [Spring](https://spring.io/)
+- [Slim](https://www.slimframework.com/)
+- [Express](https://expressjs.com/)
