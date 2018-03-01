@@ -9,8 +9,8 @@ layout: default
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}&nbsp;</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}&nbsp;</h3></a>
+          <p class="post-meta">{{ post.date | date: site.date_format }} &nbsp;</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }} &nbsp;</h3></a>
             <a href="{{ post.url | prepend: site.baseurl }}">
               <div class="text-circle-outside" style="background-image: url({{post.thumbnail-image}});">
               </div>

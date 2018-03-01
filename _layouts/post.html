@@ -3,16 +3,16 @@ layout: default
 ---
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %} {% if minutes == 0 %} {% assign minutes = 1 %} {% endif %}
 <div class="post-header mb2">
-    <h1>{{ page.title }}&nbsp;</h1>
-    <span class="post-meta">{{ page.author }}</span> - <span class="post-meta">{{ page.date | date: site.date_format }}&nbsp;</span>
+    <h1>{{ page.title }} &nbsp;</h1>
+    <span class="post-meta">{{ page.author }}</span> - <span class="post-meta">{{ page.date | date: site.date_format }} &nbsp;</span>
     <br> {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}&nbsp;</span>
+    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }} &nbsp;</span>
     <br> {% endif %}
     <span class="post-meta small">
   {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}&nbsp;
+    {{ page.minutes }} {{ site.text.post.minute_read }} &nbsp;
   {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}&nbsp;
+    {{ minutes }} {{ site.text.post.minute_read }} &nbsp;
   {% endif %}
   </span>
 </div>
