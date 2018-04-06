@@ -26,6 +26,15 @@
             <h6>Categories</h6>
         </div>
         {% include blog-filter.html %}
+
+        <div class="ui horizontal divider">
+            <button disabled class="fa fa-bell js-push-btn">
+                Enable Notifications
+            </button>
+        </div>
+
+        <script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
+
         <ul class="list-horizontal">
             <li>
                 <a class="fa fa-github" target="_blank" rel="noopener" href="https://github.com/{{ site.github_username }}"></a>
