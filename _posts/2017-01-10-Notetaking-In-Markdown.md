@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/2017-01-10-Notetaking-in-Markdown2.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 This explains my notetaking method using Markdown, LaTeX and Pandoc and how I set it up. All Instructions listed here are written for *my* personal method. Once you understand how I set it up, there are plenty of ways you can adapt this knowledge to a setup that works for you.

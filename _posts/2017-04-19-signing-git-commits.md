@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/2017-04-19-signing-git-commits2.jpg
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 I recently discovered an interesting thing you can do with git commits. Signing individual commits. Now I know that this may not be new to a lot of people, but from my experience looking around GitHub, it doesn't appear as though many people do it. In fact I've only seen one person other than myself with verified commits! So I wanted to share with you all today, how you can sign your own commits.
@@ -57,7 +57,7 @@ Now that you have a GPG key. It's time to use it with git. You'll need to tell g
 3. Set the default status on git:
     - `git config --global commit.gpgsign true` sets **All Commits** inside **All Repositories** on your machine to default as signed.
     - `git config commit.gpgsign true` sets **All Commits** inside a single repository on your machine to default as signed.
-    
+
     Now when you first set this up you may experience the annoyance of typing in your password every time you make a commit. This can be annoying. You'll also notice that it breaks commit functionality in other programs such as Jetbrains IDEs. So I looked around and found a simple solution
 
 4. Edit `~/.gnupg/gpg.conf` and add these two lines to the bottom:
@@ -66,7 +66,7 @@ Now that you have a GPG key. It's time to use it with git. You'll need to tell g
     no-tty
     use-agent
     ```
-    
+
     Now your password will be saved, and third party software will be able to commit like normal. Except now, all your commits are signed!
 
 Verifying Commits Online

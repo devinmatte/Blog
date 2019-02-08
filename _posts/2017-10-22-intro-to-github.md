@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/intro-to-github/profile.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 [GitHub](https://github.com) is a wonderful, incredible tool. One that I might be a little too obsessed with. [GitHub](https://github.com) is a great tool for any new developer to get familiar with. Not only does it make the life of a Software Engineer easier, it makes getting a job easier too. I'd love to share my obsession with anyone who might be new to the platform and show them what great tools [GitHub](https://github.com) provides.

@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/my-linux-config/gnome-thumb.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 I've been using Linux exclusively as my daily driver for about a year now. With having used linux for that long you start to put together a setup that you enjoy and that makes your life easier. I often have had friends ask me for how I set up my distro, so I figured it would be best to just write it up.

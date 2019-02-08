@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/2017-04-18-building-a-personal-blog-portfolio.jpg
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 I guess I have a blog now?

@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/2017-04-15-making-Git-Challenge2.jpg
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 Git Challenge was a project I had an idea for when I looked over a GitHub Organization I was a part of. It is for my old High School Technology Team, the organization that taught me most of what I knew about programming before I arrived at RIT. The projects in the GitHub hadn't been touched by anyone except myself and a few other Team Alumni. So I thought I should come up with a way to encourage contributing to these projects, and to teach people git. So I came up with Git-Challenge.

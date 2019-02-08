@@ -10,7 +10,7 @@ thumbnail-image: /images/posts/2017-06-14-options.png
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
-author-bio: Second Year Software Engineering Student at Rochester Institute of Technology
+author-bio: Third Year Software Engineering Student at Rochester Institute of Technology
 ---
 
 When I first started getting into using Linux, the first tool I used was Bash on Ubuntu on Windows. Like many students starting out, that and git bash were my primary introductions to command line utilities. However as I transitioned to Linux I learned that there are more shells than bash. And being curious, I decided to check one different one out. Zsh.
