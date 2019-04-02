@@ -5,7 +5,7 @@ subtitle: Openshift Origin is very powerful and free
 description: I created an Openshift Origin Cluster and have it running for nearly 100 projects
 date:   2019-04-05
 categories: tutorial
-featured-image: https://i1.wp.com/blog.openshift.com/wp-content/uploads/Snip20180716_23.png?w=1462&ssl=1
+featured-image: https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg
 thumbnail-image: https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg
 comments: true
 author: Devin Matte
