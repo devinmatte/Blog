@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  WIP: Creating an Openshift Cluster
+title:  (WIP) Creating an Openshift Cluster
 subtitle: Openshift Origin is very powerful and free
 description: I created an Openshift Origin Cluster and have it running for nearly 100 projects
 date:   2019-04-05
