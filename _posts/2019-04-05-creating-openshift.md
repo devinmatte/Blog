@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Creating an Openshift (OKD) Cluster
+title:  WIP: Creating an Openshift Cluster
 subtitle: Openshift Origin is very powerful and free
 description: I created an Openshift Origin Cluster and have it running for nearly 100 projects
 date:   2019-04-05
 categories: tutorial
-featured-image: /images/posts/intro-to-apis/api-icon.png
-thumbnail-image: /images/posts/intro-to-apis/api-icon.png
+featured-image: https://i1.wp.com/blog.openshift.com/wp-content/uploads/Snip20180716_23.png?w=1462&ssl=1
+thumbnail-image: https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg
 comments: true
 author: Devin Matte
 author-image: /images/devinmatte.jpg
